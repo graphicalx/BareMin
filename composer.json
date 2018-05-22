@@ -1,0 +1,12 @@
+{
+	"autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Config\\": "config"
+        },
+      "files": ["config.php", "routes.php"]
+    },
+    "require": {
+        "bramus/router": "~1.3"
+    }
+}
