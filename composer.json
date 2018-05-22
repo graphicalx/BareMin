@@ -1,4 +1,7 @@
 {
+    "name": "gx/baremin",
+    "type": "library",
+    "description": "A super tiny framework for my own use",
 	"autoload": {
         "psr-4": {
             "App\\": "app",
@@ -7,6 +10,7 @@
       "files": ["config.php", "routes.php"]
     },
     "require": {
+        "php": ">=5.4.0",
         "bramus/router": "~1.3"
     }
 }
